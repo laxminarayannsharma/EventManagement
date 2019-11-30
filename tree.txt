@@ -1,0 +1,88 @@
+Folder PATH listing
+Volume serial number is 8EEC-D08D
+D:.
+³   CL3.docx
+³   db.sqlite3
+³   django-upload-example.rar
+³   LICENSE
+³   manage.py
+³   tree.docx
+³   tree.txt
+³   
+ÃÄÄÄ.idea
+³   ³   lucky.iml
+³   ³   misc.xml
+³   ³   modules.xml
+³   ³   vcs.xml
+³   ³   workspace.xml
+³   ³   
+³   ÀÄÄÄinspectionProfiles
+³           profiles_settings.xml
+³           
+ÃÄÄÄ.vs
+³   ³   slnx.sqlite
+³   ³   VSWorkspaceState.json
+³   ³   
+³   ÀÄÄÄlucky
+³       ÀÄÄÄv16
+ÃÄÄÄlucky
+³   ³   settings.py
+³   ³   urls.py
+³   ³   wsgi.py
+³   ³   __init__.py
+³   ³   
+³   ÀÄÄÄ__pycache__
+³           settings.cpython-37.pyc
+³           urls.cpython-37.pyc
+³           wsgi.cpython-37.pyc
+³           __init__.cpython-37.pyc
+³           
+ÃÄÄÄmedia
+³   ÀÄÄÄbooks
+³       ÃÄÄÄcovers
+³       ³       inscription_motivation_inspiration_paint_116653_4957x3305.jpg
+³       ³       rrr.png
+³       ³       
+³       ÀÄÄÄpdfs
+³               inscription_quote_motivation_127898_3840x2160.jpg
+³               MOdule_1.png
+³               
+ÀÄÄÄmediaapp
+    ³   admin.py
+    ³   apps.py
+    ³   forms.py
+    ³   models.py
+    ³   tests.py
+    ³   views.py
+    ³   __init__.py
+    ³   
+    ÃÄÄÄmigrations
+    ³   ³   0001_initial.py
+    ³   ³   0002_auto_20191110_1905.py
+    ³   ³   __init__.py
+    ³   ³   
+    ³   ÀÄÄÄ__pycache__
+    ³           0001_initial.cpython-37.pyc
+    ³           0002_auto_20191110_1905.cpython-37.pyc
+    ³           __init__.cpython-37.pyc
+    ³           
+    ÃÄÄÄstatic
+    ³   ÀÄÄÄcss
+    ³           app.css
+    ³           
+    ÃÄÄÄtemplates
+    ³       base.html
+    ³       book_cover_list.html
+    ³       book_list.html
+    ³       class_book_list.html
+    ³       home.html
+    ³       upload.html
+    ³       upload_book.html
+    ³       
+    ÀÄÄÄ__pycache__
+            admin.cpython-37.pyc
+            forms.cpython-37.pyc
+            models.cpython-37.pyc
+            views.cpython-37.pyc
+            __init__.cpython-37.pyc
+            

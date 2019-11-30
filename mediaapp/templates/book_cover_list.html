@@ -1,0 +1,59 @@
+
+{% load static %}
+<head>
+<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="{% static 'css/app.css' %}">
+  <title>{% block title %}My Site{% endblock %}</title>
+
+<link rel="stylesheet" href="http://cdn.datatables.net/1.10.11/css/jquery.dataTables.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+<script src="http://cdn.datatables.net/1.10.11/js/jquery.dataTables.min.js"></script>
+<script>
+$(document).ready( function () {
+    $('#luckytable').DataTable();
+} );
+</script>
+</head>
+
+
+
+      <div class="col-lg-10 col-md-12">
+        <div class="card mb-4">
+          <div class="card-body">
+
+{% block content %}
+
+  {% block content_header %}
+    <h2>Event Photos</h2>
+
+  {% endblock %}
+
+  <table id="luckytable" class="table mb-0">
+    <thead>
+      <tr>
+        <th>Cover Of Event</th>
+
+      </tr>
+    </thead>
+    <tbody>
+      {% for book in books %}
+        <tr>
+          <td align="center">
+            {% if book.cover %}
+              <img src="{{ book.cover.url }}" alt="{{ book.title }}" style="width:500px;" border="1">
+            {% else %}
+              <span class="text-muted">No cover</span>
+            {% endif %}
+          </td>
+        </tr>
+
+      {% endfor %}
+    </tbody>
+  </table>
+
+      </div>
+    </div>
+  </div>
+{% endblock %}
